@@ -1,0 +1,57 @@
+{
+  "uuid": "3edfa91b-5d46-4a1e-8ae3-63996a45a530",
+  "historyId": "bea9914ad3b0530ed5291764a8ee59ec",
+  "testCaseId": "0f7bb797516663b85848b29b0cc75a66",
+  "fullName": "SeleniumNUnitOHRM:SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-34JUCEN"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumNUnitOHRM.TestCases"
+    },
+    {
+      "name": "testMethod",
+      "value": "test_001_valid_login"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "test_001_valid_login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "test_001_valid_login"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "11bd118f-3d31-4a72-8ff7-c2ddb62e6c25-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1702295179890,
+  "stop": 1702295192802
+}

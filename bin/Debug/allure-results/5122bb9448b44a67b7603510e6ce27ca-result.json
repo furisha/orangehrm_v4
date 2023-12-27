@@ -1,0 +1,63 @@
+{
+  "uuid": "360ddbbd-b631-48a7-b77b-75cffce4d5d2",
+  "historyId": "bea9914ad3b0530ed5291764a8ee59ec",
+  "testCaseId": "0f7bb797516663b85848b29b0cc75a66",
+  "fullName": "SeleniumNUnitOHRM:SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-34JUCEN"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumNUnitOHRM.TestCases"
+    },
+    {
+      "name": "testMethod",
+      "value": "test_001_valid_login"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "test_001_valid_login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentNullException : text cannot be null\r\nParameter name: text",
+    "trace": "   at OpenQA.Selenium.WebElement.SendKeys(String text)\r\n   at SeleniumNUnitOHRM.PageObjects.LoginPage.LoginPage.EnterUsername(String value, String attribute, String text) in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\PageObjects\\LoginPage\\LoginPage.cs:line 47\r\n   at SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login() in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\TestCases\\LoginTest.cs:line 32"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Failed Screenshot ",
+      "source": "e0ac467b-e34c-4289-9e5f-c3740ea04f8c-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "55c753b7-bf73-4a6a-8979-2e6639d6d763-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1702293475457,
+  "stop": 1702293489701
+}

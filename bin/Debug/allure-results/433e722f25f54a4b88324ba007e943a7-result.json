@@ -1,0 +1,63 @@
+{
+  "uuid": "db0f8753-6607-4dea-bc41-9b5a9c3cf458",
+  "historyId": "bea9914ad3b0530ed5291764a8ee59ec",
+  "testCaseId": "0f7bb797516663b85848b29b0cc75a66",
+  "fullName": "SeleniumNUnitOHRM:SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-34JUCEN"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumNUnitOHRM.TestCases"
+    },
+    {
+      "name": "testMethod",
+      "value": "test_001_valid_login"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "test_001_valid_login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Assert.That(loginButtonText, Is.EqualTo(text))\r\n  Expected string length 11 but was 8. Strings differ at index 8.\r\n  Expected: \"Username123\"\r\n  But was:  \"Username\"\r\n  -------------------^\r\n",
+    "trace": "   at SeleniumNUnitOHRM.PageObjects.LoginPage.LoginPage.EnterUsername(String value, String attribute, String text) in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\PageObjects\\LoginPage\\LoginPage.cs:line 57\r\n   at SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login() in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\TestCases\\LoginTest.cs:line 35\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Failed Screenshot ",
+      "source": "b3e2c29f-27cf-48b3-8b85-5c4cde7e06f2-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "588a85bf-c931-4c9f-93f9-e47a79f18d03-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1702298021102,
+  "stop": 1702298027275
+}

@@ -1,0 +1,63 @@
+{
+  "uuid": "323b7318-e243-4960-beb9-cd34e0c25d0e",
+  "historyId": "bea9914ad3b0530ed5291764a8ee59ec",
+  "testCaseId": "0f7bb797516663b85848b29b0cc75a66",
+  "fullName": "SeleniumNUnitOHRM:SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-34JUCEN"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "SeleniumNUnitOHRM.TestCases"
+    },
+    {
+      "name": "testMethod",
+      "value": "test_001_valid_login"
+    },
+    {
+      "name": "testClass",
+      "value": "LoginTest"
+    }
+  ],
+  "links": [],
+  "name": "test_001_valid_login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Assert.That(loginUsenameInputText, Is.EqualTo(text))\r\n  Expected: \"Username\"\r\n  But was:  null\r\n",
+    "trace": "   at SeleniumNUnitOHRM.PageObjects.LoginPage.LoginPage.EnterUsername(String value, String attribute, String text) in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\PageObjects\\LoginPage\\LoginPage.cs:line 44\r\n   at SeleniumNUnitOHRM.TestCases.LoginTest.test_001_valid_login() in D:\\Projects\\Testing\\SeleniumNUnit\\SeleniumNUnitOHRM\\TestCases\\LoginTest.cs:line 29\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Failed Screenshot ",
+      "source": "3efd1777-09e6-4726-9a5c-be1ff9c91959-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "Console Output",
+      "source": "346a2832-c092-4f09-b869-af4142869946-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1702289648442,
+  "stop": 1702289654252
+}

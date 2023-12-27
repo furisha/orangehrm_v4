@@ -1,0 +1,12 @@
+{
+  "uuid": "48ba9986-08da-427d-ba8b-6119cc3ddd26",
+  "name": "SeleniumNUnitOHRM.TestCases.LoginTest",
+  "children": [
+    "7d50b33d-b588-45f6-b0a3-e21df864445a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1702294159159,
+  "stop": 1702294165866
+}
