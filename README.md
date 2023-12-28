@@ -5,7 +5,7 @@ Setup:
 - Product Name: SeleniumNUnit
 - Check: Place solution and project in the same directory 
 - Framework .NET Framework 4.7.2
- Manage NuGet Packages:
+Manage NuGet Packages:
 - NUnIt
 - NUnit3TestAdapter
 - Selenium.WebDriver
